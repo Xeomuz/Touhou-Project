@@ -1,0 +1,48 @@
+//first skin
+Model DoomPlayer //gib
+{ 
+ÃÂÃÂÃÂÃÂ Path "models"
+ÃÂÃÂÃÂÃÂ SKIN 1 "Rhair1.png"
+   SKIN 0 "touhouhair.png"
+   MODEL 1 "Reimuhead.md3"
+   Model 0 "reimuheadhair.md3"
+
+Scale 10.0 10.00 10.00
+NOINTERPOLATION 
+
+FrameIndex REIM H 1 6	FrameIndex REIM H 0 6
+FrameIndex REIM I 1 7	FrameIndex REIM I 0 7
+FrameIndex REIM J 1 8	FrameIndex REIM J 0 8
+FrameIndex REIM K 1 9	FrameIndex REIM K 0 9
+FrameIndex REIM L 1 10	FrameIndex REIM L 0 10
+FrameIndex REIM M 1 11	FrameIndex REIM M 0 11
+FrameIndex REIM N 1 11	FrameIndex REIM N 0 11
+FrameIndex REIM O 1 999	FrameIndex REIM O 0 1
+FrameIndex REIM P 1 999	FrameIndex REIM P 0 2
+FrameIndex REIM Q 1 999	FrameIndex REIM Q 0 4
+FrameIndex REIM R 1 999	FrameIndex REIM R 0 6
+FrameIndex REIM S 1 999	FrameIndex REIM S 0 8
+FrameIndex REIM T 1 999	FrameIndex REIM T 0 8
+FrameIndex REIM U 1 999	FrameIndex REIM U 0 8
+FrameIndex REIM V 1 999	FrameIndex REIM V 0 8
+FrameIndex REIM W 1 999	FrameIndex REIM W 0 8
+}
+
+Model DoomPlayer 
+{ 
+Path "models"
+SKIN 1 "Rhair1.png"
+   SKIN 0 "touhouhair.png"
+MODEL 1 "Reimuhead.md3"
+MODEL 0 "reimuheadhair.md3"
+
+Scale 10 10 10
+
+   FrameIndex REIM A 0 0	FrameIndex REIM A 1 0
+   FrameIndex REIM B 0 1	FrameIndex REIM B 1 1
+   FrameIndex REIM C 0 1	FrameIndex REIM C 1 1
+   FrameIndex REIM D 0 2	FrameIndex REIM D 1 2
+   FrameIndex REIM E 0 3	FrameIndex REIM E 1 3
+   FrameIndex REIM F 0 4	FrameIndex REIM F 1 4
+   FrameIndex REIM G 0 5	FrameIndex REIM G 1 5
+}
